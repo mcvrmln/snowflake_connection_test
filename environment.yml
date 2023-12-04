@@ -1,0 +1,10 @@
+name: snowflake-connections
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pyyaml
+  - cryptography
+  - pip
+  - pip:
+    - "snowflake-connector-python[secure-local-storage,pandas]"
